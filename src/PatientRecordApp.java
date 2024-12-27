@@ -65,7 +65,7 @@ public class PatientRecordApp {
 
         // Statistics Panel with Card Style
         JPanel statsPanel = createCardPanel();
-        statsPanel.setLayout(new GridLayout(1, 3, 20, 0)); // 3 sections: Patients, Doctors, Appointments
+        statsPanel.setLayout(new GridLayout(1, 3, 20, 0));
 
         patientsLabel = new JLabel("Patients: " + patients.size());
         patientsLabel.setFont(new Font("Segoe UI", Font.PLAIN, 18));
